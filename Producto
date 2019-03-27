@@ -1,0 +1,26 @@
+<?php
+class Producto {
+	private $idProducto;
+	private $nomProducto;
+	private $tipoProducto;
+	private $descProducto;
+	
+	public function getIdProducto(){
+		return $this->idProducto;
+	}
+
+	public function getNomProducto(){
+		return $this->nomProducto;
+	}
+	
+	public function getTipoProducto(){
+		return $this->tipoProducto;
+	}
+	
+	public function getDescProducto(){
+		return $this->descProducto;
+	}
+	
+}
+
+?>
