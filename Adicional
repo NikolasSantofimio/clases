@@ -1,0 +1,21 @@
+<?php
+class Adicional {
+	private $idAdicional;
+	private $nomAdicional;
+	private $costoAdicional;
+	
+	public function getIdAdicional(){
+		return $this->idAdicional;
+	}
+
+	public function getNomAdicional(){
+		return $this->nomAdicional;
+	}
+	
+	public function getCostoAdicional(){
+		return $this->costoAdicional;
+	}
+	
+}
+
+?>
