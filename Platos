@@ -1,0 +1,26 @@
+<?php
+class Platos {
+	private $idPlato;
+	private $nomPlato;
+	private $listaProductos;
+	private $listaAdicionales;
+
+	public function getIdPlato(){
+		return $this->idPlato;
+	}
+
+	public function getNomPlato(){
+		return $this->nomPlato;
+	}
+	
+	public function getListaProductos(){
+		return $this->listaProductos;
+	}
+	
+	public function getListaAdicionales(){
+		return $this->listaAdicionales;
+	}
+		
+}
+
+?>
